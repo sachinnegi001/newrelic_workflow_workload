@@ -6,8 +6,8 @@ module "workload" {
 }
 
 
-# module "workflow" {
-#     source = "./workflow"
-#     details2 = var.details2
+module "workflow" {
+    source = "./workflow"
+    details2 = var.details2
   
-# }
+}
