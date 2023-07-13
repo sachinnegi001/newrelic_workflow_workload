@@ -27,11 +27,7 @@ resource "newrelic_notification_channel" "channel" {
   destination_id = each.value.destination_id
   product        = each.value.channel_product 
 
-  property {
-    key   = "subject"
-    value = "new subject title"
 
-  }
   property {
     key   = each.value.channel_key
     value = each.value.channel_value

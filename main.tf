@@ -1,9 +1,9 @@
-module "workload" {
+# module "workload" {
 
-    source = "./workload"
-    details = var.details
+#     source = "./workload"
+#     details = var.details
   
-}
+# }
 
 
 module "workflow" {
